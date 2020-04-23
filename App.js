@@ -1,10 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, StatusBar } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar barStyle = "light-content" />
+      <Text style={styles.title}>myPlanner</Text>
     </View>
   );
 }
@@ -12,8 +13,13 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#F23657',
     alignItems: 'center',
-    justifyContent: 'center',
   },
+  title: {
+    color: "white",
+    fontSize : 30,
+    marginTop: 50,
+    fontWeight: "400"
+  }
 });

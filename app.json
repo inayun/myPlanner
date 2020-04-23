@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "myPlanner",
-    "slug": "'myPlanner' App made with Reactive Native",
+    "slug": "myPlanner App made with Reactive Native",
     "platforms": [
       "ios",
       "android",
